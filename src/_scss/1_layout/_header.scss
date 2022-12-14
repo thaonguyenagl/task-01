@@ -27,12 +27,9 @@
 /* Main menu
 ------------------------------------------------------------*/
 .c-gnav {
-    ul {
-    }
-
     li {
         display: inline-block;
-        margin-right: 27px;
+        margin-right: 29px;
 
         &:last-child {
             margin-right: 0;
@@ -42,6 +39,8 @@
             font-weight: bold;
         }
     }
+
+  
 
     a {
         font-size: 1.4rem;

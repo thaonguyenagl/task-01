@@ -4,6 +4,13 @@
 
     &__footer {
         border-top: 1px solid $gray-line;
+        .c-breadcrumb{
+            &__title{
+                &::before{
+                    bottom: -3px;
+                }
+            }
+        }
     }
 
     &__box {
@@ -27,8 +34,8 @@
             width: 100%;
             height: 100%;
             position: absolute;
-            bottom: -3px;
-            border-bottom: 2px solid #5f5f5f;
+            bottom: -1px;
+            border-bottom: 1px solid #5f5f5f;
         }
 
         &::after {
@@ -43,21 +50,14 @@
 
     &__link {
         text-align: center;
-        margin-left: 7px;
+        margin-left: 9px;
         font-size: 1.4rem;
         font-weight: 500;
-        transform: translate(-1px, -1px);
-        // position: relative;
-        // top: -4px;
-        // left: -1px;
-        // letter-spacing: -0.4px;
-        // position: relative;
-        // top: 1px;
     }
 
     &__icon {
-        width: 13px;
-        transform: translate(0, -1px);
+        width: 10px;
+        transform: translate(2px, 0);
         // position: relative;
         // left: 0;
         // top: -1px;

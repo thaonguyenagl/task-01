@@ -45,8 +45,8 @@
         margin-top: 15px;
         margin-bottom: 18px;
         font-weight: 500;
-        padding-top: 5px;
-        padding-bottom: 5px;
+        padding-top: 6px;
+        padding-bottom: 4px;
         padding-left: 22px;
         padding-right: 22px;
         width: fit-content;
@@ -55,14 +55,20 @@
 
         &--green {
             background: $green;
+            padding-left: 22.5px;
+            padding-right: 22.5px;       
         }
 
         &--pink {
             background: $pink-title--link1;
+            padding-left: 20px;
+            padding-right: 23px;
         }
 
         &--yellow {
             background: $yellow;
+            padding-left: 22px;
+            padding-right: 23px;
         }
     }
  
