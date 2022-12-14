@@ -4,9 +4,10 @@
 
     &__footer {
         border-top: 1px solid $gray-line;
-        .c-breadcrumb{
-            &__title{
-                &::before{
+
+        .c-breadcrumb {
+            &__title {
+                &::before {
                     bottom: -3px;
                 }
             }
