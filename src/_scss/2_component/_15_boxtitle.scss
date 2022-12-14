@@ -1,0 +1,77 @@
+.c-newture {
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &2__boximg {
+        width: 100%;
+        height: 185px;
+    }
+  
+    &2__boxitem {
+        width: calc(50% - 50px);
+        margin-left: 50px;
+    }
+
+    &2__list,
+    &3__list {
+        margin-left: -50px;
+    }
+
+    &3__boxitem {
+        width: calc(33.33% - 50px);
+        margin-left: 50px;
+        margin-bottom: 45px;
+    }
+
+    &3__boximg,
+    &4__boximg {
+        width: 100%;
+        height: 185px;
+        object-fit: cover;
+    }
+
+    &4__boxitem {
+        width: calc(25% - 19px);
+        margin-left: 19px;
+    }
+
+    &4__list {
+        margin-left: -19px;
+    }
+
+    &__boxtitle {
+        margin-top: 15px;
+        margin-bottom: 18px;
+        font-weight: 500;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 22px;
+        padding-right: 22px;
+        width: fit-content;
+        display: inline-block;
+        cursor: pointer;
+
+        &--green {
+            background: $green;
+        }
+
+        &--pink {
+            background: $pink-title--link1;
+        }
+
+        &--yellow {
+            background: $yellow;
+        }
+    }
+ 
+    &__desc {
+        font-weight: 500;
+        font-size: 1.4rem;
+        line-height: 1.42857;
+    }
+
+   
+   
+}

@@ -1,0 +1,149 @@
+.p-link1 {
+    margin-top: 34px;
+    margin-bottom: 108px;
+    font-weight: 400;
+
+    .c-title {
+        font-size: 1.8rem;
+        line-height: 1.1;
+        text-transform: uppercase;
+        padding-bottom: 11px;
+        border-bottom: 2px solid $gray-line;
+    }
+
+    .c-anchor1 {
+        margin-top: 66px;
+
+        &__desc {
+            margin-top: 26px;
+        }
+    }
+    
+    .c-newture3 {
+        &__boxitem {
+            margin-bottom: 43px;
+        }
+
+        &__list {
+            margin-top: 16px;
+        }
+      
+    }
+
+    .c-newture4 {
+        &__list {
+            margin-top: 30px;
+    
+        }
+
+        &__boxitem {
+            margin-bottom: 14px;
+        }}
+
+   
+    .c-linetext {
+        font-weight: 500;
+
+        &--blue {
+            color: $blue-desc;
+            text-decoration: underline;
+            text-underline-offset: 2.5px;
+        }
+        
+        &--red {
+            color: $red-link1;
+            text-decoration: underline;
+            text-underline-offset: 2.5px;
+        }
+        
+        &--orange {
+            color: $orange;
+            text-decoration: underline;
+            text-underline-offset: 2.5px;
+        }
+        
+    }
+
+    .c-hot {
+        margin-top: 10px;
+
+       
+    }
+
+    .c-linkan {
+        &__list {
+            display: flex;
+            flex-wrap: wrap;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 49px;
+        }
+
+        &__item {
+            background: #00aeef;
+            cursor: pointer;
+            border-radius: 5px;
+            padding-top: 12.5px;
+            padding-bottom: 12.5px;
+            display: flex;
+            justify-content: center;
+            transform: translate(-2px, -2px);
+
+            h4 {
+                color: #ffff;
+                margin-left: 6px;
+                font-size: 1.6rem;
+                font-weight: 500;
+                line-height: 1.25;
+            }
+        }
+
+        h4 {
+            color: #ffff;
+        }
+    }
+
+    .c-boxcaption {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-top: 31px;
+        margin-bottom: 21px;
+        padding-left: 14px;
+        background: $gray-main;
+
+        h3 {
+            font-size: 1.6rem;
+            line-height: 1.25;
+        }
+    }
+
+    .c-secabout {
+        .c-about {
+            &__tr,
+            &__td {
+                padding-top: 3px;
+            }
+        }
+    }
+
+    .c-feature {
+        margin-top: 38px;
+
+        &__desc {
+            margin-bottom: 14px;
+        }
+
+        &__sec1 {
+            margin-bottom: 49px;
+        }
+
+        &__sec2 {
+            margin-bottom: 10px;
+
+            .c-boxcaption {
+                margin-bottom: 22px;
+            }
+        }
+    }
+}
+

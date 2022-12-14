@@ -1,0 +1,250 @@
+.p-link {
+    margin-top: 31px;
+    font-weight: 500;
+
+    .c-bg {
+        padding-left: 20px;
+    }
+
+    h1 {
+        font-size: 3.2rem;
+        line-height: 0.63;
+    }
+
+    h2 {
+        font-size: 2.4rem;
+    }
+
+    .c-desc--fontline {
+        font-size: 1.5rem;
+        line-height: 1.3;
+    }
+
+    .c-desc {
+        font-size: 1.5rem;
+        line-height: 1.333333;
+        color: $black;
+
+        &--red {
+            color: $red-link2;
+        }
+
+        &--pink {
+            color: $pink-light3;
+        }
+
+        &__icon {
+            padding-left: 19px;
+            padding-right: 16px;
+        }
+       
+    }
+
+    .c-iquote {
+       
+        position: relative;
+
+        &::before,
+        &::after {
+            font-family: "Font Awesome 5 Free";
+            font-weight: 900;
+            width: 13px;
+            height: 20px;
+            position: absolute;
+    
+        }
+    
+        &::before {
+            content: "\f10d";
+            top: 0;
+            left: 0;
+        }
+    
+        &::after {
+            content: "\f10e";
+            bottom: 0;
+            right: 0;
+               
+        }
+    }
+
+    .c-boxh1 {
+        background: $blue-aqua;
+        border: 2px solid $black;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-transform: uppercase;
+    }
+
+    .c-title1 {
+        padding: 0;
+        margin-top: 50px;
+        margin-bottom: 70px;
+
+        .c-bg {
+            background: $blue-aqua--light;
+            border-left: 7px solid $blue-aqua--bold;
+        
+            &__title {
+                color: $blue-aqua--bold;
+            }
+        }
+        
+        &__desc {
+            margin-top: 22px;
+            margin-bottom: 49px;
+        }
+
+        
+    }
+
+    .c-title2 {
+        padding: 0;
+        margin-bottom: 123px;
+
+        &__desc {
+            margin-top: 22px;
+            margin-bottom: 29px;
+        }
+
+
+        .c-bg {
+            background: $pink-light;
+            border-left: 7px solid $pink;
+
+            &__title {
+                color: $pink;
+            }
+        }
+    }
+
+    
+
+    .c-comments {
+        &__boxtitle {
+            display: flex;
+            align-items: center;
+
+            &--icon {
+                margin-right: 2px;
+            }
+        }
+
+        &__line {
+            margin-top: 6px;
+            margin-bottom: 17px;     
+        }
+
+        &__title {
+            font-weight: 500;
+            margin-left: 4px;
+            letter-spacing: -0.1px;
+        }
+
+        &__quotes {
+            border: 1px solid;
+            border-radius: 5px;
+            padding-top: 18px;
+            padding-right: 28px;
+            padding-left: 28px;
+            padding-bottom: 15px;
+            position: relative;
+        }
+        
+    }
+
+    .c-comments2 {
+        &__line {
+            margin-top: 5px;
+            margin-bottom: 29px;
+        }
+
+    
+    }
+   
+    .c-comments3 {
+        margin-top: 30px;
+
+        &__desc {
+            margin-top: 4px;
+            margin-bottom: 16px;
+        }
+
+        &__line {
+            margin-top: 36px;
+            margin-bottom: 11px;
+        }
+    }
+
+   
+  
+    .c-line2 {
+        &__desc {
+            margin-top: 4px;
+            margin-bottom: 30px;
+        }
+    }
+
+    .c-color {
+        &--blue {
+            color: $blue-aqua--bold;
+        }
+
+        &--pink {
+            color: $pink;
+        }
+    }
+
+   
+    ol {
+        counter-reset: item;
+    }
+
+    .c-menu {
+        &__item {
+            display: block;
+            margin-bottom: 10px;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+
+            &::before {
+                content: counters(item, ".") ".";
+                counter-increment: item;
+                color: $pink;
+                font-weight: 500;
+            }
+        }
+
+        &__sub {
+            margin-left: 36px;
+            margin-top: 10px;
+        }
+
+        .c-sub {
+            &__item {
+                position: relative;
+                margin-bottom: 10px;
+                font-weight: 500;
+
+                &::before {
+                    color: #f5989d;
+                    content: counters(item, ".") "";
+                    counter-increment: item;
+                    font-weight: 500;
+                }
+            }
+        }
+
+        .sub-item:first-child {
+            margin-top: 20px;
+        }
+    }
+}
+
+
+
+// 

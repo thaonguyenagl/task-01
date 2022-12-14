@@ -1,0 +1,34 @@
+.c-bg {
+    width: 100%;
+    height: 50px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+
+    &__title {  
+        font-size: 2.4rem;
+        line-height: 0.8333333333333333;
+
+        // h2 {
+        //     color: $blue-aqua--bold;
+        // }
+         
+        &--pink {
+            background: $pink-light;
+            border-color: $pink;
+    
+            // h2 {
+            //     color: $pink;
+            // }
+        }
+    }
+    
+    &__title2 {
+        background: $pink-light;
+        border-left: 7px solid $pink;
+    
+        // h2 {
+        //     color: $pink;
+        // }
+    }
+}
